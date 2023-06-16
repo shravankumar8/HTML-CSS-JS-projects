@@ -46,6 +46,7 @@ masterplay.addEventListener("click", () => {
 myprogressbar.addEventListener('timeupdate', () => {
 
     console.log("timeupdate")
+    console.log("timeupdate")
 
 
 })
