@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
+
+body {
+  background-color: rgb(248, 193, 193);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+.logo-navbar img {
+  padding: 0px 12px;
+  width: 55px;
+}
+.logo-navbar {
+  align-items: center;
+  display: flex;
+  font-weight: bold;
+  font-size: 1.6rem;
+  padding: 0px;
+}
+nav ul {
+  align-items: center;
+  display: flex;
+  list-style-type: none;
+  height: 65px;
+  background-color: black;
+  color: white;
+}
+nav ul li {
+  padding: 0px 12px 0px 24px;
+  font-size: 22px;
+}
+.container {
+  background-color: black;
+  display: flex;
+  min-height: 58vh;
+  color:white;
+  margin:12px auto;
+  border-radius: 20px;
+  width:93%;
+  padding: 34px;
+  background-image:url(baground.png);
+  background-size: 1100px;
+  background-position:right;
+  background-repeat:no-repeat;
+  background-size: cover;
+  
+  
+}
+
+.buttom {
+  align-self: center;
+  background-color: black;
+  position: sticky;
+  height: 100px;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: antiquewhite;
+  flex-direction: column;
+}
+.icons {
+    cursor: pointer;
+    margin-top: 12px;
+  display: flex;
+}
+
+#progressbar {
+    cursor: pointer;
+  width: 162vh;
+}
+.songItem{
+    
+    height: 50px;
+    display: flex;
+background-color: white;
+width:100%;
+color: rgb(0, 0, 0);
+margin:12px 30px;
+justify-content: space-between;
+align-items: center;
+border-radius: 24px;
+padding: 4px;
+font-size: 20px;
+}
+.songItem img{
+    border-radius: 34px;
+    width: 43px;
+    margin : 0px 5px
+}
+.duration{
+margin: 0 23px;
+justify-content:center;
+padding: 0 2px;
+}
+#masterPlay1{
+    cursor: pointer;
+    padding: 0 5px;
+    Justify-content: center;
+    margin-top: 10px;
+    
+}
+
+.songlistcontainer{
+    margin-left: 43px;
+    margin-top: 15px;
+}
+.songinfo{
+    font-size: larger;
+    position: absolute;
+    left: 8vw;
+}
+
+.buttonsonginfo{
+  position: absolute;
+  left: 155px;
+
+}
+.titlesong{
+  font-size: larger;
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif;
+}
+#titlesong{
+  font-size: 20px;
+}
+#songTitle1{
+  position: relative;
+  right: 40px;
+  
+}
+.forward{
+  
+  filter: invert(100%);
+  padding-left: 4px;
+}
