@@ -36,8 +36,27 @@ body{
 }
 .field{
     background-color: rgb(130, 140, 228);   
-    padding: 20px;
+    padding: 0px;
     margin: 20px;
     width :20%;
     height: 400px;
+}
+.jsondataul{
+    padding-left: 26px;
+    padding-right: 0;
+}
+.jsondatali{
+    list-style: none;
+    padding:3px 0px;
+    font-size: 16px;
+
+}
+#textcard2{
+    padding-right: 30px;
+}
+#textcard3{
+overflow: scroll;
+}
+#textcard{
+    padding-left: 5px;
 }
