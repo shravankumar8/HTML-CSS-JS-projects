@@ -1,0 +1,43 @@
+
+body{
+    background-color:rgb(136, 177, 177);
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar {
+    width:100%;
+    background-color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.navbar ul li{
+    color: white;
+    list-style: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    padding:12px;
+    margin :12px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.textfields{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+.field{
+    background-color: rgb(130, 140, 228);   
+    padding: 20px;
+    margin: 20px;
+    width :20%;
+    height: 400px;
+}
