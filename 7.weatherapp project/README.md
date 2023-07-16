@@ -1,1 +1,1 @@
-![Alt Text](/projectimages/1.png)
+![Alt Text](projectimages/1.png)
