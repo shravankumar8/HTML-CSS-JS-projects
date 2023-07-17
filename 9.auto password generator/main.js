@@ -25,5 +25,5 @@ generatebtn.addEventListener("click", () => {
 let copybtn=document.querySelector(".copybtn");
 copybtn.addEventListener("click",()=>{
   navigator.clipboard.writeText(passwordbox.value);
-  alert("Password Copied");
+  if (passwordbox.value!=""){ alert("Password Copied")};
 })

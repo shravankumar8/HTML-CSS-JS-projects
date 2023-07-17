@@ -59,11 +59,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .generate-btn img{
     outline: 0;
     width: 20px;
     margin-right: 10px;
+    
 
 }
 
