@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: linear-gradient(135deg, rgb(53, 4, 53), rgb(161, 117, 161));
+    
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    color: white;
+    padding: 10px;
+}
+.agecalculator{
+    width: 100%;
+    max-width: 600px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.agecalculator h1{
+    font-size: 60px;
+    font-weight: 800;
+}
+.agecalculator h1 span{
+    color: rgb(255, 102, 0);
+}
+.inputbox{
+    margin:40px 0;
+    padding: 34px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(206, 172, 206);
+}
+.inputbox input{
+    cursor: pointer;
+    flex: 1;
+    margin-right: 20px;
+    padding: 14px 20px;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    border-radius: 10px;
+    position: relative;
+    background-color: white;
+}
+.inputbox button{
+    border: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+font-size: 20px;
+color: white;
+cursor: pointer;
+background-color: rgb(206, 82, 0);
+
+}
+.inputbox button:hover{
+    background-color: rgb(190, 94, 30);
+
+}
+.inputbox input::-webkit-calendar-picker-indicator {
+background-size: 25px;
+ opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+
+}
