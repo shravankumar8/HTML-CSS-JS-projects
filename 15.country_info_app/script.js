@@ -1,7 +1,7 @@
 let searchBtn = document.querySelector(".wrapper button");
 let countryinp = document.querySelector(".wrapper input");
 let replacableDiv = document.querySelector(".replaceble");
-
+ let favcon1=document.querySelector("#favcon");
 searchBtn.addEventListener("click", () => {
   let finalurl = `https://restcountries.com/v3.1/name/${countryinp.value}?fullText=true`;
 
@@ -11,10 +11,9 @@ searchBtn.addEventListener("click", () => {
         console.log(
           Object.values(data[0].languages).toString().split(",").join(", ")
         );
-        if (data[0]) {
-            
-        }
-        replacableDiv.innerHTML = `
+          favcon1.setAttribute("href", data[0].flags.png);
+          console.log(favcon1)
+          replacableDiv.innerHTML = `
            <div class="information">
             <img class="nationalFlag" src="${data[0].flags.png}" alt="">
             <h1 class="nationName">${data[0].name.common}</h1>
