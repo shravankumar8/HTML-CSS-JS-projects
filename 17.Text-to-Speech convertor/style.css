@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #3740bf,#7e369a);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero h1{
+    color: white;
+    font-size: 45px;
+    font-weight: 500px;
+    margin-top:-50px;
+    margin-bottom: 50px;
+}
+.hightext{
+    color: #ff2963;
+}
+.hero textarea{
+width:600px ;
+height: 250px;
+background: #403d84;
+color: white;
+font-size: 16px;
+outline: 0;
+border: none;
+padding: 20px;
+border-radius: 10px;
+resize: none;
+margin-bottom: 30px;
+}
+.hero textarea::placeholder{
+    font-size: 16px;
+    color: #ddd;
+}
+.hero select{
+    flex: 1;
+    color: white;
+    background-color: #403d84;
+    height: 50px;
+    padding-right: 50px;
+    padding:0 20px ;
+    outline: 0;
+    border: 0;
+    border-radius: 35px;
+     appearance: none; 
+     background-image: url("./assets/image.png");
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position-x:10px ;
+    background-position-y: 20px; 
+ 
+
+}
+.btmitms{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+.btmitms button{
+    background: #ff2963;
+    color: white;
+    font-size: 16px;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 45px;
+    outline: 0;
+    cursor: pointer;
+}
+.btmitms button img{
+    justify-content: center;
+    width: 10px;
+    margin-right: 10px;
+    filter: invert(1);
+}

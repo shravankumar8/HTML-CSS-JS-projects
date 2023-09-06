@@ -5,8 +5,8 @@ async function checkWeather(city){
 
 
   const response = await fetch(
-    `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=863242cfb2b1d357e6093d9a4df19a4b&units=metric`
-    );
+    `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=f5f565e72e1c5c405f8331b9eb430e9f=metric`
+  );
     if (response.status === 404) {
       error=document.querySelector(".error")
       error.innerHTML="please enter a valid city name";
