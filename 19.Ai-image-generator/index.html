@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Image generator | Gitstar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="image-generator">
+      <div class="content">
+        <h1>AI Image Generator Tool Javascript</h1>
+        <p>
+          Convert your text into an image within a second using this
+          Javascript-Powered AI image Generator tool.
+        </p>
+        <form class="generate-form" action="#">
+          <input
+            type="text"
+            class="prompt-input"
+            placeholder="Describe your idea"
+            required
+          />
+          <div class="controls">
+            <select class="image-quantity">
+              <option value="1 "selected>1 image</option>
+              <option value="2 " >2 image</option>
+              <option value="3 ">3 image</option>
+              <option value="4 ">4 image
+                
+              </option>
+           
+            </select>
+            <button type="submit" class="generate-image">Generate</button>
+            
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <h1 class="sampleimages">sample images</h1>
+    <section class="image-gallery">
+        <div class="img-card  borders">
+            <img src="./assets/1.jpg" alt="">
+            <a href="#" class="download-btn"><img src="./assets/download-solid.svg" alt="download icon"></a>
+        </div>
+        <div class="img-card">
+            <img src="./assets/2.jpg" alt="">
+            <a href="#" class="download-btn"><img src="./assets/download-solid.svg" alt="download icon"></a>
+        </div>
+        <div class="img-card">
+            <img src="./assets/3.jpg" alt="">
+            <a href="#" class="download-btn"><img src="./assets/download-solid.svg" alt="download icon"></a>
+        </div>
+        <div class="img-card">
+            <img src="./assets/4.jpg" alt="">
+            <a href="#" class="download-btn"><img src="./assets/download-solid.svg" alt="download icon"></a>
+        </div>
+    </section>
+    <script src="./main.js"></script>
+  </body>
+</html>
